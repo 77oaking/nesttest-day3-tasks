@@ -30,8 +30,4 @@ export class StudentController {
     remove(@Param('id') id:string){
         return this.studentService.deleteStudent(Number(id));
     }
-
-
-
-
 }
